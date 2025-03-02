@@ -24,6 +24,7 @@ export const StyledHeaderContainer = styled.div`
 `;
 
 export const StyledHeader = styled.header`
+  margin: 0 0 0 22px;
   background-color: #0f1624;
   display: flex;
 `;
