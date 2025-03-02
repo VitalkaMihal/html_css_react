@@ -31,4 +31,5 @@ export const StyledProjectCards = styled.div`
   display: flex;
   gap: 60px;
   flex-wrap: wrap;
+  justify-content: space-around;
 `;

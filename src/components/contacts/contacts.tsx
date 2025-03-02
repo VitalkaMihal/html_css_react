@@ -9,13 +9,19 @@ export const Contacts = () => {
     <StyledContacts>
       <StyledUlContacts>
         <li>
-          <StyledContactLogo src={logoGit} alt="" />
+          <StyledLogoA href="">
+            <StyledContactLogo src={logoGit} alt="" />
+          </StyledLogoA>
         </li>
         <li>
-          <StyledContactLogo src={linkedin} alt="" />
+          <StyledLogoA href="">
+            <StyledContactLogo src={linkedin} alt="" />
+          </StyledLogoA>
         </li>
         <li>
-          <StyledContactLogo src={telegram} alt="" />
+          <StyledLogoA href="">
+            <StyledContactLogo src={telegram} alt="" />
+          </StyledLogoA>
         </li>
       </StyledUlContacts>
     </StyledContacts>
@@ -31,3 +37,5 @@ export const StyledUlContacts = styled.ul`
 `;
 
 export const StyledContactLogo = styled.img``;
+
+export const StyledLogoA = styled.a``;
