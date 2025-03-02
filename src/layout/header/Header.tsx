@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Logo } from "../../components/logo/logo";
 import { Nav } from "../../components/nav/nav";
+import { Contacts } from "../../components/contacts/contacts";
 
 export const Header = () => {
   return (
@@ -9,6 +10,7 @@ export const Header = () => {
       <StyledHeaderContainer>
         <Logo />
         <Nav />
+        <Contacts />
       </StyledHeaderContainer>
     </StyledHeader>
   );
